@@ -1,7 +1,7 @@
 {
   "name": "demo_mui",
   "version": "0.1.0",
-  "homepage": "https://ulasala.github.io/demomui",
+  "homepage": "https://ulasala.github.io/demo_mui",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.4",
