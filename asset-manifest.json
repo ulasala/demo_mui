@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/demomui/static/css/main.785a7098.css",
+    "main.js": "/demomui/static/js/main.092f1725.js",
+    "static/js/453.9b7c02bc.chunk.js": "/demomui/static/js/453.9b7c02bc.chunk.js",
+    "index.html": "/demomui/index.html",
+    "main.785a7098.css.map": "/demomui/static/css/main.785a7098.css.map",
+    "main.092f1725.js.map": "/demomui/static/js/main.092f1725.js.map",
+    "453.9b7c02bc.chunk.js.map": "/demomui/static/js/453.9b7c02bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.785a7098.css",
+    "static/js/main.092f1725.js"
+  ]
+}
