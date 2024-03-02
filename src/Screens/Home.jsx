@@ -25,30 +25,34 @@ const Home = () => {
         />
 
         <Grid container spacing={4} justifyContent={'center'}>
-          <Grid item xs={12} sm={12} md={5}>
-            <Typography variant="h3" component="h2">
-              MFG Ops UI
-            </Typography>
-            <Typography variant="h6" component="h2">
-              Proof of Concept
-            </Typography>
+          <Grid
+            item
+            xs={12}
+            sm={12}
+            md={4}
+            direction={'column'}
+            sx={{
+              display: 'flex',
+              alignContent: 'center',
+            }}
+          >
+            <Typography variant="h3">MFG Ops UI</Typography>
+            <Typography variant="h6">Proof of Concept</Typography>
           </Grid>
 
-          <Grid item xs={12} sm={12} md={2} justifyContent={'center'}>
-            <Divider
-              orientation={isSmallScreen ? 'horizontal' : 'vertical'}
-            ></Divider>
+          <Grid item xs={12} sm={12} md={1}>
+            <Divider orientation={isSmallScreen ? 'horizontal' : 'vertical'} />
           </Grid>
 
-          <Grid item xs={12} sm={12} md={5}>
-            <Typography variant="h6" component="h2">
+          <Grid item xs={12} sm={12} md={4}>
+            <Typography variant="h6">
               Please Select a Location, Product Line, & Device Configuration
               from the options below.
             </Typography>
           </Grid>
         </Grid>
 
-        <Divider orientation="horizontal" sx={{ marginTop: 2, border: 1 }} />
+        <Divider orientation="horizontal" sx={{ marginTop: 3, border: 1 }} />
 
         <Grid container spacing={6} style={{ marginTop: 10 }}>
           <Grid
