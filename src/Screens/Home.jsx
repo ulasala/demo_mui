@@ -91,6 +91,7 @@ const Home = () => {
             width: '100%',
             marginTop: 10,
             marginRight: 20,
+            marginBottom: 20,
             textAlign: 'end',
           }}
         >
